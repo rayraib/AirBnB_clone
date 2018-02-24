@@ -1,30 +1,32 @@
 .places {
-    text-align: left;
-    font-size: 30px;
+    /*text-align for the literal text places*/
+    display: flex;
+    flex-direction: column;
 }
 
-article {
-    width: 390px;
+.articles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.articles article {
+    flex-basis: 390px;
     padding: 20px;
     margin: 20px;
     border: solid 1px#FF5A5F;
     border-radius: 4px;
-    display: inline-block;
-}
-
-.test {
-    margin-left: 27%;
 }
 
 .places h2 {
     font-size: 30px;;
     text-align: center;
+    /*remove default margin?*/
     margin: 0px;
     padding: 0px;
 }
 
-.places h1 {
+h1 {
     margin-top: 20px;
-    margin-bottom: 0px;
     margin-bottom: 0px;
 }
