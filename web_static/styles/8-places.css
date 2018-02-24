@@ -36,6 +36,7 @@ h1 {
     flex-direction: row;
     /* align-items: flex-end; */
     justify-content: flex-end;
+    padding-bottom: 10px;
 }
 .price_by_night {
     display: flex;
