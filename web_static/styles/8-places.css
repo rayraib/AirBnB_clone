@@ -44,35 +44,49 @@ h1 {
     justify-content: center;
 }
 .name {
-    /* background-color: antiquewhite; */
     flex: 1;
     text-align: center;
     padding-left: 39px;
 }
-/* .articles h2 {
-    font-size: 30px;;
-    text-align: center;
-    remove default margin?
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-} */
+
 .information {
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-around;
     height: 80px;
     border-bottom: solid #DDDDDD 1px;
     border-top: solid #DDDDDD 1px;
+    padding-left: 45px; 
 }
 .max_guest {
     display: flex;
     flex-direction: column;
 }
+.img_group{
+    width: 100px;
+    height: 80px; 
+    display: flex;
+    background-image: url("../images/icon_group.png");
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+}
 .img_bed {
-    width: inherit;
-    height: inherit; 
+    width: 100px;
+    height: 80px; 
     display: flex;
     background-image: url("../images/icon_bed.png");
     background-repeat: no-repeat;
+    margin-bottom: -50px;
+}
+.img_bath {
+    width: 100px;
+    height: 80px; 
+    display: flex;
+    background-image: url("../images/icon_bath.png");
+    background-repeat: no-repeat;
+    margin-bottom: -50px;
+}
+.number_bathrooms p, .number_rooms p {
+    text-align: left;
+    margin-left: -10px;
 }
