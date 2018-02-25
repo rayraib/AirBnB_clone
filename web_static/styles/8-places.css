@@ -90,3 +90,11 @@ h1 {
     text-align: left;
     margin-left: -10px;
 }
+
+.user {
+    padding-top: 5px;
+}
+
+.description p {
+    margin-top: -10px;
+}
